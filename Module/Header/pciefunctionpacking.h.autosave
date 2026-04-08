@@ -1,0 +1,18 @@
+#ifndef PCIEFUNCTIONPACKING_H
+#define PCIEFUNCTIONPACKING_H
+
+class PCIEFUNCTIONPACKING_H
+{
+    
+public:
+    PCIEFUNCTIONPACKING_H() {};
+    
+    //读取下位机数据
+    int read_device();
+    
+    //写入下位机数据
+    int writeDevice();
+};
+
+
+#endif // PCIEFUNCTIONPACKING_H

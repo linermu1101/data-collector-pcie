@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>qrc/style.css</file>
+        <file>qrc/down.png</file>
+        <file>qrc/up.png</file>
+        <file>qrc/cdown.png</file>
+        <file>qrc/4x2.png</file>
+        <file>qrc/8x1.png</file>
+        <file>qrc/play.png</file>
+        <file>qrc/stop.png</file>
+        <file>qrc/automation.png</file>
+        <file>icons/drag_on.png</file>
+        <file>icons/drag_off.png</file>
+        <file>icons/zoom_on.png</file>
+        <file>icons/zoom_off.png</file>
+        <file>icons/tracer_on.png</file>
+        <file>icons/tracer_off.png</file>
+    </qresource>
+</RCC>

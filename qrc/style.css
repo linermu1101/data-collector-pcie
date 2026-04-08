@@ -1,0 +1,147 @@
+/*.QFrame{
+border:1px solid #D8D8D8;
+border-radius:5px;
+}*/
+
+QMainWindow#MainProcess,QMainWindow[Form="true"]{
+background-color:#F2F2F2;
+color:#666666;
+}
+
+QSpinBox{
+font-family:"微软雅黑";
+font-size:13px;
+height:20px;
+border:1px solid gray;
+}
+
+QSpinBox::up-button{
+padding:2px 2px 2px 2px;
+image:url(:/new/prefix1/qrc/up.png);
+}
+
+QSpinBox::down-button{
+padding:2px 2px 2px 2px;
+image:url(:/new/prefix1/qrc/down.png);
+}
+
+QComboBox{
+font-family:"黑体";
+font-size:13px;
+text-align:center;
+height:20px;
+border:1px solid gray;
+background-color:white;
+}
+
+QComboBox::drop-down{
+subcontrol-origin: padding;
+subcontrol-position: top right;
+width:25px;
+background-color:white;
+padding:5px 5px 5px 5px;
+border:none;
+}
+
+QComboBox::down-arrow{
+width:8px;
+image:url(:/new/prefix1/qrc/cdown.png);
+}
+
+QComboBox QAbstractItemView{
+outline:0px;
+}
+
+QComboBox QAbstractItemView::item{
+height:20px;
+color:#666666;
+padding-left:9px;
+background-color:#FFFFFF;
+}
+
+QComboBox QAbstractItemView::item:hover{
+background-color:#409CE1;
+color:#ffffff;
+}
+
+QComboBox QAbstractItemView::item:selected{
+color:#ffffff;
+background-color:#409CE1;
+}
+
+QPlainTextEdit{
+background-color:transparent;
+font-family:"微软雅黑";
+font-size:13px;
+border:#AAAAAA;
+color:#666666;
+}
+
+QLabel{
+font-family:"微软雅黑";
+font-size:12px;
+}
+
+
+QPushButton{
+/*min-width:40px;
+min-height:20px;*/
+font-family:"微软雅黑";
+font-size:12px;
+}
+
+QPushButton#lightReadCard,QPushButton#lightReferSpectrum{
+max-width:40px;
+height:25px;
+border-radius:20px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5,
+                                 stop:0 rgb(0, 60, 0),
+                                 stop:0.79 rgb(0, 60, 0),
+                                 stop:0.8 rgb(100, 100, 100),
+                                 stop:0.9 rgb(255, 255, 255),
+                                 stop:1 rgb(0, 0, 0));
+}
+
+QPushButton#lightReadCard:checked,QPushButton#lightReferSpectrum:checked{
+max-width:40px;
+height:40px;
+border-radius:20px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5,
+                                 stop:0 rgb(0, 255, 0),
+                                 stop:0.79 rgb(0, 230, 0),
+                                 stop:0.8 rgb(100, 100, 100),
+                                 stop:0.9 rgb(255, 255, 255),
+                                 stop:1 rgb(0, 0, 0));
+}
+
+QTabWidget::pane{
+background-color:transparent;
+border:none;
+}
+
+QTabBar::tab{
+width:70px;
+height:20px;
+background-color:transparent;
+/*border:1px solid gray;*/
+border-bottom-color:white;
+padding:5px 5px 5px 5px;
+font-family:"微软雅黑";
+font-size:15px;
+}
+
+QTabBar::tab:selected{
+border-bottom:2px solid #0078D7;
+color:#0078D7;
+}
+
+QLineEdit{
+border:1px solid gray;
+font-family:"微软雅黑";
+font-size:12px;
+}
+
+/*QHeaderView{
+font-family:"微软雅黑";
+font-size:13px;
+}*/
